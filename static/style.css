@@ -1,0 +1,114 @@
+html { 
+    text-align: center;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+}
+
+#title img {
+    width: 300px;
+}
+
+/* search */
+
+#searchBox{
+    padding-top: 15%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #keyword {
+        width: 275px !important;
+    }
+    
+    #searchBox{
+        padding-top: 30% !important;
+    }
+}
+
+#keyword {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 16px;
+    border: none;
+}
+
+label {
+    position: relative;
+}
+
+#searchIcon {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 33px;
+    bottom: 0;
+    width: 20px;
+}
+
+#clearIcon {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 33px;
+    bottom: 0;
+    width: 20px;
+    display: none;
+}
+
+#keyword:focus {
+    outline: none;
+}
+
+/* card */
+
+.card {
+    color: black;
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
+.cardVenue {
+    color: #767676;
+}
+
+.carousel .card-title, .cardVenue, #detailCard .card-text {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-title img, .card-text img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.col-3 {
+    display: flex;
+}
+
+/* detail card */
+
+#detailCard .card-title {
+    text-align: center;
+}
+
+#ticketmaster {
+    width: 25px;
+    margin-right: 0px;
+    border-radius: 50%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Ticketbrowser</title>
+  <link rel="icon" href="../static/images/icon.png">
+  <link rel='stylesheet' type='text/css' href='../static/style.css'>
+  <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet'>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+</head>
+<body class='bg-primary text-white fw-bold'>
+  <div id='searchBox'>
+    <div id='title' data-aos='fade-down' data-aos-easing='ease-in-out' data-aos-duration='1000'>
+      <img src='../static/images/ticketbrowser.png'>
+
+    </div>
+    <div id='form' data-aos='fade-down' data-aos-easing='ease-in-out' data-aos-duration='1000'>
+      <div>
+        <label>
+          <img id='searchIcon' src='../static/images/search.png'>
+          <input type='text' id='keyword' placeholder='Search by Artist, Event, or Venue' required>
+          <img id='clearIcon' src='../static/images/clear.png'>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div id='result'></div>
+  <div id='detail'></div>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' integrity='sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN' crossorigin='anonymous'></script>
+  <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+  <script type='module' src='../static/app.js'></script>
+</body>
+</html>
