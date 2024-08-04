@@ -1,5 +1,5 @@
-# ticketbrowser
+# TicketBrowser
 
-Developed and launched a mobile-responsive website utilizing the Python web application framework Flask to handle search requests on the backend and serve data to the frontend, deployed to AWS. To run locally, create a virtual
-environment using "python3 -m venv venv", and activate the environment with "source venv/bin/activate" and 
-"python application.py" to run the Flask app.
+* Deployed a mobile-responsive website on AWS utilizing Python and the Flask framework to fetch and display API data
+* Utilized JavaScript event listeners, DOM manipulation, and smooth-scrolling animations with user-experience in mind
+* To run locally, create a virtual environment using "python3 -m venv venv" and activate the environment with "source venv/bin/activate" and "python application.py" to run the Flask app.
